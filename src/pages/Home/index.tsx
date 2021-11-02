@@ -116,10 +116,10 @@ const Home: React.FC = () => {
 
   return (
     <Container>
-      <Header title="My movies" />
+      <Header title="MoveIn" />
 
       <SearchContainer>
-        <Input placeholder="Iron Man" placeholderTextColor="#666360" value={input} onChangeText={setInput}/>
+        <Input placeholder="Ex: Homem de ferro" placeholderTextColor="#666360" value={input} onChangeText={setInput}/>
 
         <SearchButton onPress={handleSearchMovie}>
           <Feather name="search" size={24} color="#fff" />

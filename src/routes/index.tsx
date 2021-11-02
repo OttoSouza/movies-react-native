@@ -24,7 +24,7 @@ export const Routes = () => {
         name="HomeDrawer"
         component={StackRoutes}
         options={{
-          title: "Home", // mudar o titulo de cada item do menu.
+          title: "Inicio", // mudar o titulo de cada item do menu.
           drawerIcon: ({ focused, size, color }) => (
             <MaterialCommunityIcons
               name={focused ? "movie-open" : "movie-outline"}
@@ -38,7 +38,7 @@ export const Routes = () => {
         name="Movies"
         component={Movies}
         options={{
-          title: "My Movies",
+          title: "Meus filmes",
           drawerIcon: ({ focused, size, color }) => (
             <MaterialCommunityIcons
               name={focused ? "archive" : "archive-outline"}
