@@ -8,6 +8,14 @@ Aplicativo para listagem de filmes utilizando api externa e o expo para emular o
 * React native stars - Usada para criar as avaliações de cada filme
 * Typescript - Tipagem dos dados
 
+# Instalação
+
+- Instale o expo na sua maquina. Link: https://docs.expo.dev/get-started/installation/
+- Faça o clone do projeto e execute "expo install"
+- Quando a instalação tiver pronta execute "expo start"
+- Escola se deseja abrir em seu iphone, android ou emulador
+- Aproveite! 
+
 
 <div style="margin-top:40px">
 
